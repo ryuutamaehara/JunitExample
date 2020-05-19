@@ -12,7 +12,7 @@ public class TimeoutExampleTest {
 
   @Test
   public void 長時間かかるテスト() throws Exception {
-    doLongTask(100);  //実行結果はOK
+    doLongTask(80);  //実行結果はOK
 //    doLongTask(200);  //実行結果はNG
   }
 
